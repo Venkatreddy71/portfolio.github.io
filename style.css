@@ -1,9 +1,22 @@
 
-        .header{
-            background-color: navy;
-            color: white;
-        }
-        .footer{
-            background-color: silver;
-            text-align: center;
-        }
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: navy;
+    color: white;
+}
+.footer{
+    background-color: silver;
+    text-align: center;    }
+.container{
+    margin: 0px;
+}
+
+*{
+    margin: 0px;
+}
+
+.menu{  
+    display: flex;
+}
